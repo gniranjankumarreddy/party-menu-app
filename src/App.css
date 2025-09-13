@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  width: 90%;
+  margin: 15px auto;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 14px;
+  outline: none;
+}
+
+.category-tabs {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.tab-btn {
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tab-btn.active {
+  background: #ff9800;
+  color: white;
+  font-weight: bold;
+}
+
+.cuisine-section {
+  padding: 15px;
+}
+
+.cuisine-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.dish-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+
+.dish-info {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.dish-info h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.dish-info p {
+  font-size: 13px;
+  color: #666;
+  margin: 6px 0;
+}
+
+.read-more {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.ingredient {
+  font-size: 12px;
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.dish-actions {
+  text-align: center;
+}
+
+.dish-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.add-btn {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.add-btn.add {
+  background: #4caf50;
+  color: white;
+}
+
+.add-btn.remove {
+  background: #f44336;
+  color: white;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  background: #fff8e1;
+  border-top: 1px solid #eee;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.continue-btn {
+  background: black;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
