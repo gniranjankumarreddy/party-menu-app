@@ -28,4 +28,3 @@ Tech Stack.
 React.js (Frontend framework)
 CSS (Styling, single file App.css)
 JavaScript (ES6+)
-
